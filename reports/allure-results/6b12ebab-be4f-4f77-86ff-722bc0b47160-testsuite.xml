@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629366973954' stop='1629366973957'>
+    <name>UI level Validations</name>
+    <title>UI level Validations</title>
+    <test-cases>
+        <test-case start='1629366973955' status='pending' stop='1629366973955'>
+            <name>Logo is present</name>
+            <title>Logo is present</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

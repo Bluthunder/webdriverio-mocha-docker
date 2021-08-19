@@ -1,0 +1,101 @@
+[ {
+  "uid" : "4b587aeecfb2f48d",
+  "name" : "Validate Landing Page",
+  "time" : {
+    "start" : 1629361539494,
+    "stop" : 1629361609849,
+    "duration" : 70355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7040599885458153",
+  "name" : "Logo is present",
+  "time" : {
+    "start" : 1629366973955,
+    "stop" : 1629366973955,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e52b98eb4dd9b094",
+  "name" : "Verify Our cars hamburger menu",
+  "time" : {
+    "start" : 1629366973957,
+    "stop" : 1629367045722,
+    "duration" : 71765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c539c426e70d70ea",
+  "name" : "Validate our car is displyed",
+  "time" : {
+    "start" : 1629361609851,
+    "stop" : 1629361609902,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a90fdbfe99a92461",
+  "name" : "Validate our car is displyed",
+  "time" : {
+    "start" : 1629367044651,
+    "stop" : 1629367044721,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b156946d7b114df",
+  "name" : "Validate Vided Watch ",
+  "time" : {
+    "start" : 1629367045049,
+    "stop" : 1629367047371,
+    "duration" : 2322
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "785678024ed5abea",
+  "name" : "Validate Video Pressence and Format",
+  "time" : {
+    "start" : 1629367044721,
+    "stop" : 1629367045049,
+    "duration" : 328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3feb29dbb8eeb3c",
+  "name" : "Validate Landing Page",
+  "time" : {
+    "start" : 1629366973954,
+    "stop" : 1629367044651,
+    "duration" : 70697
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "891e077a71079483",
+  "name" : "Validate Vided Watch ",
+  "time" : {
+    "start" : 1629361610108,
+    "stop" : 1629361610977,
+    "duration" : 869
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bebe2763505e715d",
+  "name" : "Validate Video Pressence and Format",
+  "time" : {
+    "start" : 1629361609902,
+    "stop" : 1629361610108,
+    "duration" : 206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

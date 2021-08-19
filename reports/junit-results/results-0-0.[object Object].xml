@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Volvo_Hamburger_Menu_Validations" timestamp="2021-08-19T22:52:16" time="57.8" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Volvo Hamburger Menu Validations"/>
+      <property name="capabilities" value="chrome.92_0_4515_159.windows"/>
+      <property name="file" value=".\test\specs\volvo-hamburgerMenu.js"/>
+    </properties>
+    <testcase classname="chrome.92_0_4515_159.windows.Volvo_Hamburger_Menu_Validations" name="Verify_Our_cars_hamburger_menu" time="1.351">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/c629e138aa6e39407a22ef80a9dd3ab3/element - {"using":"css selector","value":"button[data-autoid='nav:siteNavHamburgerIcon']"}
+RESULT: {"using":"css selector","value":"button[data-autoid='nav:siteNavHamburgerIcon']"}
+COMMAND: POST /session/c629e138aa6e39407a22ef80a9dd3ab3/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2","ELEMENT":"0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2","ELEMENT":"0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2"}]}
+COMMAND: POST /session/c629e138aa6e39407a22ef80a9dd3ab3/element - {"using":"css selector","value":"button[data-autoid='nav:siteNavHamburgerIcon']"}
+RESULT: {"using":"css selector","value":"button[data-autoid='nav:siteNavHamburgerIcon']"}
+COMMAND: POST /session/c629e138aa6e39407a22ef80a9dd3ab3/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2","ELEMENT":"0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2","ELEMENT":"0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2"}]}
+COMMAND: POST /session/c629e138aa6e39407a22ef80a9dd3ab3/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (3808 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2","ELEMENT":"0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (3808 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2","ELEMENT":"0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2"}]}
+COMMAND: POST /session/c629e138aa6e39407a22ef80a9dd3ab3/element - {"using":"css selector","value":"button[data-autoid='nav:siteNavHamburgerIcon']"}
+RESULT: {"using":"css selector","value":"button[data-autoid='nav:siteNavHamburgerIcon']"}
+COMMAND: POST /session/c629e138aa6e39407a22ef80a9dd3ab3/element/0125a66a-ec4b-42ed-a2ca-e91ae42d2fc2/click - {}
+RESULT: {}
+COMMAND: GET /session/c629e138aa6e39407a22ef80a9dd3ab3/se/log/types - {}
+RESULT: {}
+COMMAND: POST /session/c629e138aa6e39407a22ef80a9dd3ab3/se/log - {"type":"browser"}
+COMMAND: POST /session/c629e138aa6e39407a22ef80a9dd3ab3/se/log - {"type":"driver"}
+RESULT: {"type":"browser"}
+RESULT: {"type":"driver"}
+COMMAND: DELETE /session/c629e138aa6e39407a22ef80a9dd3ab3 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

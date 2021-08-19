@@ -1,0 +1,58 @@
+{
+  "uid" : "e52b98eb4dd9b094",
+  "name" : "Verify Our cars hamburger menu",
+  "fullName" : "Volvo Hamburger Menu Validations.Verify Our cars hamburger menu",
+  "historyId" : "33648010b07bba1906f234cc8f96bae",
+  "time" : {
+    "start" : 1629366973957,
+    "stop" : 1629367045722,
+    "duration" : 71765
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Hamburger Menu Validations"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Hamburger Menu Validations"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Our cars hamburger menu"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Hamburger Menu Validations"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e52b98eb4dd9b094.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}

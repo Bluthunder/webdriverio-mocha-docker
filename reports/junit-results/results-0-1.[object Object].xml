@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Volvo_Campaign_Landing_Page_Validations" timestamp="2021-08-19T22:52:16" time="58.899" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Volvo Campaign Landing Page Validations"/>
+      <property name="capabilities" value="chrome.92_0_4515_159.windows"/>
+      <property name="file" value=".\test\specs\volvo-landingPage.js"/>
+    </properties>
+    <testcase classname="chrome.92_0_4515_159.windows.Volvo_Campaign_Landing_Page_Validations" name="Validate_Landing_Page" time="0.115">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/element - {"using":"css selector","value":"nav[role='navigation']  a[data-autoid ='nav:siteNavLogoSmall']"}
+RESULT: {"using":"css selector","value":"nav[role='navigation']  a[data-autoid ='nav:siteNavLogoSmall']"}
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b8478cb3-2956-4560-9ba9-8a8c0cf55fa6","ELEMENT":"b8478cb3-2956-4560-9ba9-8a8c0cf55fa6"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b8478cb3-2956-4560-9ba9-8a8c0cf55fa6","ELEMENT":"b8478cb3-2956-4560-9ba9-8a8c0cf55fa6"}]}
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/element - {"using":"css selector","value":"nav[role='navigation']  a[data-autoid ='nav:siteNavLogoSmall']"}
+RESULT: {"using":"css selector","value":"nav[role='navigation']  a[data-autoid ='nav:siteNavLogoSmall']"}
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b8478cb3-2956-4560-9ba9-8a8c0cf55fa6","ELEMENT":"b8478cb3-2956-4560-9ba9-8a8c0cf55fa6"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b8478cb3-2956-4560-9ba9-8a8c0cf55fa6","ELEMENT":"b8478cb3-2956-4560-9ba9-8a8c0cf55fa6"}]}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.92_0_4515_159.windows.Volvo_Campaign_Landing_Page_Validations" name="Validate_our_car_is_displyed" time="0.063">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/element - {"using":"css selector","value":"button[data-autoid='nav:topNavCarMenu']"}
+RESULT: {"using":"css selector","value":"button[data-autoid='nav:topNavCarMenu']"}
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"6063c08e-45ff-4bff-b68a-42ec5c7362d2","ELEMENT":"6063c08e-45ff-4bff-b68a-42ec5c7362d2"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"6063c08e-45ff-4bff-b68a-42ec5c7362d2","ELEMENT":"6063c08e-45ff-4bff-b68a-42ec5c7362d2"}]}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.92_0_4515_159.windows.Volvo_Campaign_Landing_Page_Validations" name="Validate_Video_Pressence_and_Format" time="0.269">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/element - {"using":"css selector","value":"video[role='video']"}
+RESULT: {"using":"css selector","value":"video[role='video']"}
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"28226b54-937e-4729-9f2a-500ba331896d","ELEMENT":"28226b54-937e-4729-9f2a-500ba331896d"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"28226b54-937e-4729-9f2a-500ba331896d","ELEMENT":"28226b54-937e-4729-9f2a-500ba331896d"}]}
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/element - {"using":"css selector","value":"video[role='video']>source"}
+RESULT: {"using":"css selector","value":"video[role='video']>source"}
+COMMAND: GET /session/6c3cb4538cce74aa17da604f5bf5e3eb/element/5fc438f8-7238-409a-9d7f-020e17d1e0e0/attribute/type - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.92_0_4515_159.windows.Volvo_Campaign_Landing_Page_Validations" name="Validate_Video_Watch" time="2.009">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/element - {"using":"css selector","value":"#Video-1 .a.cl > button"}
+RESULT: {"using":"css selector","value":"#Video-1 .a.cl > button"}
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"2b136520-eb0a-4b9a-bfb1-28da1cb77644","ELEMENT":"2b136520-eb0a-4b9a-bfb1-28da1cb77644"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (5353 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"2b136520-eb0a-4b9a-bfb1-28da1cb77644","ELEMENT":"2b136520-eb0a-4b9a-bfb1-28da1cb77644"}]}
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/element - {"using":"css selector","value":"#Video-1 .a.cl > button"}
+RESULT: {"using":"css selector","value":"#Video-1 .a.cl > button"}
+COMMAND: GET /session/6c3cb4538cce74aa17da604f5bf5e3eb/element/2b136520-eb0a-4b9a-bfb1-28da1cb77644/text - {}
+RESULT: {}
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/element - {"using":"css selector","value":"#Video-1 .a.cl > button"}
+RESULT: {"using":"css selector","value":"#Video-1 .a.cl > button"}
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/element/2b136520-eb0a-4b9a-bfb1-28da1cb77644/click - {}
+RESULT: {}
+COMMAND: GET /session/6c3cb4538cce74aa17da604f5bf5e3eb/se/log/types - {}
+RESULT: {}
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/se/log - {"type":"browser"}
+COMMAND: POST /session/6c3cb4538cce74aa17da604f5bf5e3eb/se/log - {"type":"driver"}
+RESULT: {"type":"browser"}
+RESULT: {"type":"driver"}
+COMMAND: DELETE /session/6c3cb4538cce74aa17da604f5bf5e3eb - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="UI_level_Validations" timestamp="2021-08-19T22:52:16" time="56.721" tests="2" failures="0" errors="2" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="UI level Validations"/>
+      <property name="capabilities" value="chrome.92_0_4515_159.windows"/>
+      <property name="file" value=".\test\specs\volvo-ui.js"/>
+    </properties>
+    <testcase classname="chrome.92_0_4515_159.windows.UI_level_Validations" name="Logo_Image" time="0.197">
+      <error message="browser.saveElement is not a function"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/9fd69469a8600c7c1be0d8d4dc4cbaf0/element - {"using":"css selector","value":"nav[role='navigation']  a[data-autoid ='nav:siteNavLogoSmall']"}
+RESULT: {"using":"css selector","value":"nav[role='navigation']  a[data-autoid ='nav:siteNavLogoSmall']"}
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+TypeError: browser.saveElement is not a function
+    at LandingPage.saveLogoImage (F:\webdriverIO-Volvo\test\pageobjects\/volvo-landingPage.js:70:13)
+    at Context.it (F:\webdriverIO-Volvo\test\specs\/volvo-ui.js:16:22)
+    at Context.executeSync (F:\webdriverIO-Volvo\node_modules\@wdio\sync\build\index.js:25:22)
+    at fibers_1.default (F:\webdriverIO-Volvo\node_modules\@wdio\sync\build\index.js:46:68)
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.92_0_4515_159.windows.UI_level_Validations" name="FullPage" time="0.007">
+      <error message="browser.saveFullPageScreen is not a function"/>
+      <system-out>
+        <![CDATA[
+COMMAND: GET /session/9fd69469a8600c7c1be0d8d4dc4cbaf0/se/log/types - {}
+RESULT: {}
+COMMAND: POST /session/9fd69469a8600c7c1be0d8d4dc4cbaf0/se/log - {"type":"browser"}
+COMMAND: POST /session/9fd69469a8600c7c1be0d8d4dc4cbaf0/se/log - {"type":"driver"}
+RESULT: {"type":"browser"}
+RESULT: {"type":"driver"}
+COMMAND: DELETE /session/9fd69469a8600c7c1be0d8d4dc4cbaf0 - {}
+RESULT: {}
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+TypeError: browser.saveFullPageScreen is not a function
+    at LandingPage.saveFullPage (F:\webdriverIO-Volvo\test\pageobjects\/volvo-landingPage.js:79:13)
+    at Context.it (F:\webdriverIO-Volvo\test\specs\/volvo-ui.js:22:22)
+    at Context.executeSync (F:\webdriverIO-Volvo\node_modules\@wdio\sync\build\index.js:25:22)
+    at fibers_1.default (F:\webdriverIO-Volvo\node_modules\@wdio\sync\build\index.js:46:68)
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

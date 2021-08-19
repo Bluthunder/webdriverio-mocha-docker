@@ -1,0 +1,58 @@
+{
+  "uid" : "a90fdbfe99a92461",
+  "name" : "Validate our car is displyed",
+  "fullName" : "Volvo Campaign Landing Page Validations.Validate our car is displyed",
+  "historyId" : "beb835f4b58e62f7638a4442beee78c1",
+  "time" : {
+    "start" : 1629367044651,
+    "stop" : 1629367044721,
+    "duration" : 70
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Campaign Landing Page Validations"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Campaign Landing Page Validations"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate our car is displyed"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Campaign Landing Page Validations"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a90fdbfe99a92461.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}

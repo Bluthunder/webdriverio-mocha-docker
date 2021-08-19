@@ -1,0 +1,58 @@
+{
+  "uid" : "bebe2763505e715d",
+  "name" : "Validate Video Pressence and Format",
+  "fullName" : "Volvo Campaign Landing Page Validations.Validate Video Pressence and Format",
+  "historyId" : "ff22afe015be231a9f3df4a61352de7b",
+  "time" : {
+    "start" : 1629361609902,
+    "stop" : 1629361610108,
+    "duration" : 206
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Campaign Landing Page Validations"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Campaign Landing Page Validations"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate Video Pressence and Format"
+  }, {
+    "name" : "package",
+    "value" : "Volvo Campaign Landing Page Validations"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bebe2763505e715d.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629393736752' stop='1629393793382'>
+    <name>UI level Validations</name>
+    <title>UI level Validations</title>
+    <test-cases>
+        <test-case start='1629393736753' status='broken' stop='1629393793371'>
+            <name>Logo Image</name>
+            <title>Logo Image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>browser.saveElement is not a function</message>
+                <stack-trace>TypeError: browser.saveElement is not a function
+                    at LandingPage.saveLogoImage (F:\webdriverIO-Volvo\test\pageobjects\/volvo-landingPage.js:70:13)
+                    at Context.it (F:\webdriverIO-Volvo\test\specs\/volvo-ui.js:16:22)
+                    at Context.executeSync (F:\webdriverIO-Volvo\node_modules\@wdio\sync\build\index.js:25:22)
+                    at fibers_1.default (F:\webdriverIO-Volvo\node_modules\@wdio\sync\build\index.js:46:68)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1629393793372' status='broken' stop='1629393793379'>
+            <name>FullPage</name>
+            <title>FullPage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>browser.saveFullPageScreen is not a function</message>
+                <stack-trace>TypeError: browser.saveFullPageScreen is not a function
+                    at LandingPage.saveFullPage (F:\webdriverIO-Volvo\test\pageobjects\/volvo-landingPage.js:79:13)
+                    at Context.it (F:\webdriverIO-Volvo\test\specs\/volvo-ui.js:22:22)
+                    at Context.executeSync (F:\webdriverIO-Volvo\node_modules\@wdio\sync\build\index.js:25:22)
+                    at fibers_1.default (F:\webdriverIO-Volvo\node_modules\@wdio\sync\build\index.js:46:68)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

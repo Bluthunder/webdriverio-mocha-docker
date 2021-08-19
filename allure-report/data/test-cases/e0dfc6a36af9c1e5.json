@@ -1,0 +1,46 @@
+{
+  "uid" : "e0dfc6a36af9c1e5",
+  "name" : "Logo is present",
+  "fullName" : "UI level Validations.Logo is present",
+  "historyId" : "5b3b38e3b545cd438f3af90fc72ca0ee",
+  "time" : {
+    "start" : 1629361539494,
+    "stop" : 1629361539494,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "UI level Validations"
+  }, {
+    "name" : "testClass",
+    "value" : "UI level Validations"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logo is present"
+  }, {
+    "name" : "package",
+    "value" : "UI level Validations"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0dfc6a36af9c1e5.json",
+  "parameterValues" : [ ]
+}

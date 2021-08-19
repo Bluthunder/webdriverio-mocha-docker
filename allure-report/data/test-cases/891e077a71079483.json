@@ -1,0 +1,58 @@
+{
+  "uid" : "891e077a71079483",
+  "name" : "Validate Vided Watch ",
+  "fullName" : "Volvo Campaign Landing Page Validations.Validate Vided Watch ",
+  "historyId" : "6ff996a790f3c43c5570be3b5891694a",
+  "time" : {
+    "start" : 1629361610108,
+    "stop" : 1629361610977,
+    "duration" : 869
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo Campaign Landing Page Validations"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo Campaign Landing Page Validations"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate Vided Watch "
+  }, {
+    "name" : "package",
+    "value" : "Volvo Campaign Landing Page Validations"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "891e077a71079483.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}
